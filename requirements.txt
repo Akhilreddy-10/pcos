@@ -1,0 +1,6 @@
+catboost==1.2.2
+langchain_pinecone==0.0.2
+openai==1.12.0
+streamlit==1.30.0
+tiktoken==0.6.0
+langchain-openai==0.0.6
