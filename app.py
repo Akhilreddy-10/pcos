@@ -7,10 +7,10 @@ from catboost import CatBoostClassifier
 st.set_page_config(page_title="PCOS Diagnosis", page_icon=":female_sign:")
 
 
-col1, col2 = st.columns([1, 5])
+#col1, col2 = st.columns([1, 5])
 
-col1.image("intergene.jpeg", width=100) 
-col2.markdown("<h1 style='color: green;font-family: Times New Roman;font-size: 40px;'>Intergene Biosciences Pvt Ltd.</h1>", unsafe_allow_html=True)
+#col1.image("intergene.jpeg", width=100) 
+#col2.markdown("<h1 style='color: green;font-family: Times New Roman;font-size: 40px;'>Intergene Biosciences Pvt Ltd.</h1>", unsafe_allow_html=True)
 
 
 st.markdown("")
