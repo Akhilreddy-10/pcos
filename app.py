@@ -3,6 +3,9 @@ import streamlit as st
 from langchain_openai import OpenAIEmbeddings
 from langchain_pinecone import Pinecone
 from catboost import CatBoostClassifier
+from dotenv import load_dotenv
+
+load_dotenv()
 
 st.set_page_config(page_title="PCOS Diagnosis", page_icon=":female_sign:")
 
